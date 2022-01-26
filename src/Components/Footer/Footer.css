@@ -1,0 +1,32 @@
+.footer-main-title {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+.footer-main-title span {
+  color: yellow;
+}
+.main-footer-body {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+}
+.footer-ul {
+}
+.footer-ul a {
+  text-decoration: none;
+  color: greenyellow;
+  transition: all 0.4s ease;
+}
+.footer-ul a:hover {
+  color: yellow;
+}
+.footer-ul a li {
+  list-style: none;
+}
+.footer-text {
+  text-align: justify;
+}

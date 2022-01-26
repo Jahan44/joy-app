@@ -1,0 +1,108 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.navbar-style {
+  width: 100%;
+  height: 75px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: static;
+  top: 0%;
+  left: 0%;
+  z-index: 50;
+}
+.navbar-ul {
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+.home,
+.about,
+.dasboard,
+.login,
+.logOut {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.navbar-ul .logOut {
+  border: 2px solid yellow;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: royalblue;
+  color: white;
+}
+.nav-title {
+  font-size: 30px;
+  color: aliceblue;
+}
+.fa-icon-style {
+  display: none;
+}
+
+/* media query style for */
+@media screen and (max-width: 600px) {
+  .navbar-ul {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    width: 100%;
+    background-color: aqua;
+    z-index: 2;
+    padding: 5px 40px 30px 30px;
+  }
+  /* .navbar-style {
+    display: flex;
+    /* flex-direction: column;
+    margin-top: 10px;
+    height: auto; */
+  */ .home,
+  .about,
+  .dasboard,
+  .login {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+  }
+  .fa-icon-style {
+    display: block;
+    font-size: 35px;
+    color: white;
+  }
+
+  .navbar-mobile .home,
+  .about,
+  .dasboard,
+  .login,
+  .logOut li {
+    width: 100%;
+    background-color: chartreuse;
+    display: block;
+    margin-top: 10px;
+  }
+  .logOut li {
+    width: 100%;
+    background-color: chartreuse;
+    display: block;
+    margin-top: 10px;
+  }
+  .logOut {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: cyan;
+  }
+}
